@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R !(f) a+x . 
+chmod -lR ugo+x . 

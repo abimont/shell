@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x (find /shell/permissions -type d)
+find /shell/permissions -type f -exec chmod ugo+x {} \;

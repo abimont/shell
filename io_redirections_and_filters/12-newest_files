@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -o > ls -tr | tail
+sort | ls -tr | tail

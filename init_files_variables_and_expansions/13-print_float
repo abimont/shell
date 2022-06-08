@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM{00..99} | tr ' ' '\n'
+echo $(($NUM+$#2)) | tr ' ' '\n'

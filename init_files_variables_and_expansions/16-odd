@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | grep -v ^[2,4,6,8,0] 
+sort -n | grep -v ^[2,4,6,8,0] 

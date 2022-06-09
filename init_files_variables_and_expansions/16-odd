@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -n | grep -v ^[2,4,6,8,0] 
+cat -n | cut -b -3 | grep -v ^[2,4,6,8,0] | cut -f2 

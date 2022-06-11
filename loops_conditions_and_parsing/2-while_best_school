@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This display Best School 10 times, from zero to nine and using the -lt flag: less than 
 b=0
 while [ $b -lt 10 ]
 do

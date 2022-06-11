@@ -6,13 +6,13 @@ do
 	echo $n
 	(( n++ ))
 	case $n in
-	4)
+	5)
 	echo "bad luck from China"
 	;;
-	9)
+	10)
 	echo "bad luck from Japan"
 	;;
-	17)
+	18)
 	echo "bad luck from Italy"
 	;;
 	esac

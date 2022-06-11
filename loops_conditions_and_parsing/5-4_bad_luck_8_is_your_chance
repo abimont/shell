@@ -5,7 +5,7 @@ while [ $bs -lt 10 ]
 do
       echo "Best School"
       (( bs++ ))
-      if [ $bs == 4]
+      if [ $bs == 4 ]
       then
 	  echo "bad luck"
       elif [ $bs == 8 ]

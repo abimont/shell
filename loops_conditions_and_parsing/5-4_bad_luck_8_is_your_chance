@@ -8,7 +8,7 @@ do
       if [ $bs == 3 ]
       then
 	  echo "bad luck"
-      elif [ $bs == 7 ]
+      elif [ $bs == 6 ]
       then
 	  echo "good luck"
       else

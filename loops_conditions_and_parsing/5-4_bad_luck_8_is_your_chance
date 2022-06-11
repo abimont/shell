@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # display bad luck and good luck
 bs=0
-while [ $bs -lt 10 ]
+while [ $bs -lt 8 ]
 do
       echo "Best School"
       (( bs++ ))
-      if [ $bs == 4 ]
+      if [ $bs == 3 ]
       then
 	  echo "bad luck"
-      elif [ $bs == 8 ]
+      elif [ $bs == 7 ]
       then
 	  echo "good luck"
       else

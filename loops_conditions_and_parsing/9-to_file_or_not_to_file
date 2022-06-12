@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # lookin for a file and printing answers for each condition
-srch=$(ls | grep -q school)
+srch=$(find . -name school)
 
 if [ $srch -eq 0 ]
 then

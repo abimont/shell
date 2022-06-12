@@ -4,9 +4,9 @@ srch=$(ls | grep -q school)
 
 if [ $srch -eq 0 ]
 then
-    echo "school file exists"
-else
     echo "school file does not exist"
+else
+    echo "school file does not exists"
 fi
 if [ -s $srch ]
     then

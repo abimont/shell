@@ -6,7 +6,7 @@ if [ $srch -eq 0 ]
 then
     echo "school file does not exist"
 else
-    echo "school file does not exists"
+    echo "school file exists"
 fi
 if [ -s $srch ]
     then

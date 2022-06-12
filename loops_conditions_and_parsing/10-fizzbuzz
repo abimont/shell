@@ -1,19 +1,18 @@
 #!/usr/bin/env bash
 #  displays numbers from 1 to 100: displays FizzBuzz when multiple of 3 and 5, Fizz when multiple of 3, Buzz when multiple of 5, otherwise, displays the number
-num=1
-while [ $num -lt 100 ]
+for num in {1..100}
 do
-	echo "$num"
-	(( num++ ))
-        if (( $num % 3 == 0 && $num % 5 == 0 ))
-	   then
+       if (( $num % 3 == 0 && $num % 5 == 0 ))
+       then
 	   echo "FizzBuzz"
-	elif (( $num % 3 == 0 ))
-	     then
-	     echo "Fizz"
-	elif (( $num % 5 == 0 ))
-	     then
-	     echo "Buzz"
-	fi
+       elif (( $num % 3 == 0 ))
+       then
+	   echo "Fizz"
+       elif (( $num % 5 == 0 ))
+       then
+	   echo "Buzz"
+       else
+	   echo $num
+       fi
 done
 

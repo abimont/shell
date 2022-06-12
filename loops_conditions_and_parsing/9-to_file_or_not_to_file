@@ -2,7 +2,7 @@
 # lookin for a file and printing answers for each condition
 srch=$(find . -name school)
 
-if [ $srch -eq 0 ]
+if [ $srch ]
 then
     echo "school file does not exist"
 else

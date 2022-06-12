@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # lists only names of the files in the current directory
-list="$(ls)"
-for list in $(ls)
+list=$(ls)
+for list in $list
 do
     echo "$list" | rev | cut -d '-' -f1 | rev
 done

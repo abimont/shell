@@ -2,5 +2,5 @@
 # lists only names of the files in the current directory
 for list in $(ls)
 do
-    echo $list | rev | cut -d '.' -f2 | rev
+    echo "$list" | rev | cut -d '-' -f1 | rev
 done

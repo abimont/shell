@@ -7,13 +7,13 @@ then
 else
     echo "school file exists"
 fi
-if [ -s $srch ]
+if [ -s school ]
     then
 	echo "school file is not empty"
     else
 	echo "school file is empty"
 fi
-if [ -f $srch ]
+if [ -f school ]
     then
 	echo "school is a regular file"
 fi

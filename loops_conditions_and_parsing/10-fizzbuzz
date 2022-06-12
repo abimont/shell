@@ -2,13 +2,13 @@
 #  displays numbers from 1 to 100: displays FizzBuzz when multiple of 3 and 5, Fizz when multiple of 3, Buzz when multiple of 5, otherwise, displays the number
 for num in {1..100}
 do
-       if (( $num % 3 == 0 && $num % 5 == 0 ))
+       if (( num % 3 == 0 && num % 5 == 0 ))
        then
 	   echo "FizzBuzz"
-       elif (( $num % 3 == 0 ))
+       elif (( num % 3 == 0 ))
        then
 	   echo "Fizz"
-       elif (( $num % 5 == 0 ))
+       elif (( num % 5 == 0 ))
        then
 	   echo "Buzz"
        else

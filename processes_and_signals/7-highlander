@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#infinity loop with response to signals
+while :
+do
+echo "To infinity and beyond"
+sleep 2
+
+if ( trap SIGTERM );
+then
+echo "I am invincible!!!"
+fi
+
+done

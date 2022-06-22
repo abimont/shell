@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Creates a file, displays response after receive sign 
 
 sudo touch /var/run/myscript.pid

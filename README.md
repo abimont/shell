@@ -1,4 +1,4 @@
-<h1>Shell, basics<h1>
+# Shell, basics
 
 This repository was developed as part of the Software Fundations program for Holberton School and is intended to explore the basic linux environment by learning:
 

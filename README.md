@@ -1,4 +1,4 @@
-# Shell, basics
+<h1 align="center"> Shell, basics </h1>
 
 This repository was developed as part of the Software Fundations program for Holberton School and is intended to explore the basic linux environment by learning:
 
@@ -9,11 +9,11 @@ This repository was developed as part of the Software Fundations program for Hol
 - Man pages.
 - Keyboard Shortcuts.
 
-### But, what is the Shell?
+<h3> But, what is the Shell? </h3>
 
 The shell is a program that takes commands from the keyboard and gives them to the operating system to perform. In the old days, it was the only user interface available on a Unix-like system such as Linux. Nowadays, we have graphical user interfaces (GUIs) in addition to command line interfaces (CLIs) such as the shell. This repository contains the basic steps to learn how to use a shell properly and take advantage of it.
 
-<h2>Requirements<h2>
+<h2> Requirements </h2>
 
 - Allowed editors for this project: vi, vim, emacs.
 - All the scripts are tested on Ubuntu 20.04 LTS.

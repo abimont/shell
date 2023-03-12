@@ -1,1 +1,2 @@
-init files variables and expansions
+# Shell: Init Files, Variables and Expansions
+

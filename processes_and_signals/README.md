@@ -10,9 +10,9 @@ Moving ahead, each process has its own unique process ID through which it is ide
 
 Here are some commands to take control of these processes:
 
-ps: The ps command is a flexible tool for identifying the programs that are running on the system and the resources they are using.
-pgrep: It allows a user to find process IDs in the running program in the system's current state.
-pkill: It signals a program to run based on various parameters.
-kill: It sends a signal (by default, the SIGTERM signal) to a running process. This default action normally stops processes.
-exit: The command causes the shell or program to terminate.
-trap: Trap allows you to catch signals and execute code when they occur.
+- `ps`: The ps command is a flexible tool for identifying the programs that are running on the system and the resources they are using.
+- `pgrep`: It allows a user to find process IDs in the running program in the system's current state.
+- `pkill`: It signals a program to run based on various parameters.
+- `kill`: It sends a signal (by default, the SIGTERM signal) to a running process. This default action normally stops processes.
+- `exit`: The command causes the shell or program to terminate.
+- `trap`: Trap allows you to catch signals and execute code when they occur.

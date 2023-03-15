@@ -8,6 +8,13 @@ This repository was developed as part of the Software Fundations program for Hol
 - Use and operation of commands.
 - Man pages.
 - Keyboard Shortcuts.
+- Processes and Signals.
+- Find and kill process.
+- PID.
+- Loops and conditions.
+- Variables.
+- Redirections.
+- User Permissions.
 
 <h3> But, what is the Shell? </h3>
 
